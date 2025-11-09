@@ -118,8 +118,15 @@ Capturas de las pruebas realizadas, como lo solicita el TP.
 ![Prueba 7](https://github.com/user-attachments/assets/e5dcbe95-00ba-4dcd-8a66-05394194a201)
 ![Prueba 8](https://github.com/user-attachments/assets/8e970431-fdbc-4576-a7c0-0dbb4e53ede6)
 
-### 6. H2 Console - Datos Persistidos
-(Prueba 12: Muestra de la tabla `PRODUCTO` después de realizar las operaciones)
+### PRUEBA 10: Actualizar solo stock (PATCH)
+
+![Prueba 10](https://github.com/user-attachments/assets/9a1d6245-0de4-4342-afed-fd868a233dcd)
+
+### PRUEBA 11: Eliminar producto (DELETE)
+
+![Prueba 11](https://github.com/user-attachments/assets/55e9b4cf-e1a0-420f-bc31-bd4dce55b43d)
+
+### PRUEBA 12: Verificar en H2 Console
 
 ![Prueba 12](https://github.com/user-attachments/assets/4af4ac96-bd35-4e60-9378-bd652e62426a)
 
@@ -132,8 +139,7 @@ Este trabajo práctico fue una excelente consolidación de los conceptos de desa
 Sin embargo, el mayor desafío no estuvo en la lógica de Java, sino en la configuración del entorno de desarrollo. La depuración de la aplicación me enseñó lecciones fundamentales:
 
 1.  **Configuración del IDE vs. Build Tool:** El problema más difícil de diagnosticar fue la configuración de ejecución de IntelliJ. Descubrir que la aplicación compilaba con Gradle pero no se ejecutaba (porque IntelliJ delegaba el *run* a Gradle y este terminaba la tarea) fue clave. Cambiar la ejecución a `IntelliJ IDEA` resolvió el problema base de que el servidor no se levantaba.
-2.  **Conflictos de Dependencias y Startup:** El segundo gran desafío fue el *crash* silencioso de la aplicación. Identificar que `springdoc` (Swagger) fallaba al intentar analizar el `Enum Categoria` como `@PathVariable` me obligó a investigar cómo Spring maneja la conversión de tipos, implementando una solución robusta con un `Converter` personalizado en `WebConfig.java`.
-3.  **Diagnóstico del Entorno:** Finalmente, el error `Port 8080 was already in use` fue un recordatorio práctico de la importancia de gestionar los procesos y puertos en el entorno de desarrollo.
+2.  **Diagnóstico del Entorno:** Finalmente, el error `Port 8080 was already in use` fue un recordatorio práctico de la importancia de gestionar los procesos y puertos en el entorno de desarrollo.
 
 Este TP fue valioso porque demostró que el trabajo de un ingeniero de sistemas no es solo escribir código que funcione, sino también entender, configurar y depurar la compleja cadena de herramientas, dependencias y configuraciones del entorno que lo hacen posible.
 
