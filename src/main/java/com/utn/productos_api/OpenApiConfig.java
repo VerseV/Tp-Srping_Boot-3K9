@@ -20,8 +20,8 @@ public class OpenApiConfig {
                                 "Permite realizar operaciones CRUD sobre productos, filtrar por categoría " +
                                 "y actualizar el stock de manera individual.")
                         .contact(new Contact()
-                                .name("Adriel Espejo - UTN Programación III")
-                                .email("tu-email@ejemplo.com"))
+                                .name("Adriel Espejo - UTN Desarrollo de Software 2025")
+                                .email("adrieleespejo@gmail.com"))
                         .license(new License()
                                 .name("Apache 2.0")
                                 .url("https://www.apache.org/licenses/LICENSE-2.0.html")));
