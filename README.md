@@ -97,36 +97,45 @@ Capturas de las pruebas realizadas, como lo solicita el TP.
 ![Swagger UI](https://github.com/user-attachments/assets/21168b15-dd43-4a0d-8a80-7a062b4f7c75)
 
 ### 2. POST - Crear Producto (201 Created)
-(Prueba 1: Creación de un producto con código 201)
 
 ![Prueba 1](https://github.com/user-attachments/assets/31d8c0b7-9663-4147-98c1-856060f8b179)
 
-
 ### 3. GET - Listar Productos
-(Prueba 3: Listado de los productos creados con código 200)
 
 ![Prueba 3](https://github.com/user-attachments/assets/1b6a4132-aef2-45b2-b416-b9fff238bab4)
 
-### 4. Error 404 - Producto No Encontrado
-(Prueba 6: Intento de buscar un producto con un ID inexistente, ej: 999)
+### 4. GET - Obtener un producto por ID
+
+![Prueba 4](https://github.com/user-attachments/assets/b33c75cc-3061-4eee-99c0-215dc193b00b)
+
+### 5. GET - Filtrar por categoría
+
+![Prueba 5](https://github.com/user-attachments/assets/0b943540-c6c0-4175-a2c7-8eee9471fb27)
+
+### 6. Error 404 - Producto No Encontrado
 
 ![Prueba 6](https://github.com/user-attachments/assets/d5028236-a929-4320-90d7-11055866fc3a)
 
-### 5. Error 400 - Validación
-(Prueba 7 u 8: Intento de crear un producto con nombre vacío o precio negativo)
+### 7. Error 400 - Validación (sin nombre)
 
 ![Prueba 7](https://github.com/user-attachments/assets/e5dcbe95-00ba-4dcd-8a66-05394194a201)
+
+### 8. Error 400 - Precio negativo
 ![Prueba 8](https://github.com/user-attachments/assets/8e970431-fdbc-4576-a7c0-0dbb4e53ede6)
 
-### PRUEBA 10: Actualizar solo stock (PATCH)
+### 9. Actualizar producto completo (PUT)
+
+![Prueba 9](https://github.com/user-attachments/assets/35e8014f-262b-40a5-97fd-71a4371ef73c)
+
+### 10. Actualizar solo stock (PATCH)
 
 ![Prueba 10](https://github.com/user-attachments/assets/9a1d6245-0de4-4342-afed-fd868a233dcd)
 
-### PRUEBA 11: Eliminar producto (DELETE)
+### 11. Eliminar producto (DELETE)
 
 ![Prueba 11](https://github.com/user-attachments/assets/55e9b4cf-e1a0-420f-bc31-bd4dce55b43d)
 
-### PRUEBA 12: Verificar en H2 Console
+### 12. Verificar en H2 Console
 
 ![Prueba 12](https://github.com/user-attachments/assets/4af4ac96-bd35-4e60-9378-bd652e62426a)
 
