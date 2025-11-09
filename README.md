@@ -93,36 +93,35 @@ Para ver la base de datos en memoria:
 Capturas de las pruebas realizadas, como lo solicita el TP.
 
 ### 1. Swagger UI - Documentación Completa
+
 ![Swagger UI](https://github.com/user-attachments/assets/21168b15-dd43-4a0d-8a80-7a062b4f7c75)
-
-
-
-[**<-- ARRASTRA Y SUELTA AQUÍ TU CAPTURA DE SWAGGER (image_eb3bfe.png)**]
 
 ### 2. POST - Crear Producto (201 Created)
 (Prueba 1: Creación de un producto con código 201)
 
-[**<-- ARRASTRA Y SUELTA AQUÍ TU CAPTURA DEL POST EXITOSO**]
+![Prueba 1](https://github.com/user-attachments/assets/31d8c0b7-9663-4147-98c1-856060f8b179)
+
 
 ### 3. GET - Listar Productos
 (Prueba 3: Listado de los productos creados con código 200)
 
-[**<-- ARRASTRA Y SUELTA AQUÍ TU CAPTURA DEL GET (LISTAR TODOS)**]
+![Prueba 3](https://github.com/user-attachments/assets/1b6a4132-aef2-45b2-b416-b9fff238bab4)
 
 ### 4. Error 404 - Producto No Encontrado
 (Prueba 6: Intento de buscar un producto con un ID inexistente, ej: 999)
 
-[**<-- ARRASTRA Y SUELTA AQUÍ TU CAPTURA DEL ERROR 404**]
+![Prueba 6](https://github.com/user-attachments/assets/d5028236-a929-4320-90d7-11055866fc3a)
 
 ### 5. Error 400 - Validación
 (Prueba 7 u 8: Intento de crear un producto con nombre vacío o precio negativo)
 
-[**<-- ARRASTRA Y SUELTA AQUÍ TU CAPTURA DEL ERROR 400**]
+![Prueba 7](https://github.com/user-attachments/assets/e5dcbe95-00ba-4dcd-8a66-05394194a201)
+![Prueba 8](https://github.com/user-attachments/assets/8e970431-fdbc-4576-a7c0-0dbb4e53ede6)
 
 ### 6. H2 Console - Datos Persistidos
 (Prueba 12: Muestra de la tabla `PRODUCTO` después de realizar las operaciones)
 
-[**<-- ARRASTRA Y SUELTA AQUÍ TU CAPTURA DE H2 CON EL `SELECT * ...`**]
+![Prueba 12](https://github.com/user-attachments/assets/4af4ac96-bd35-4e60-9378-bd652e62426a)
 
 ---
 
